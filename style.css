@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-container{
+    width:100%;
+    margin: auto;
+    background: #133F77;
+    padding:1.5rem 0rem;
+}
+nav{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    color:white;
+    width:80%;
+    margin: auto;
+}
+nav li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+nav button{
+    padding:0.5rem;
+}
+nav button a{
+    color:#133F77;
+}
+/* login and sign up */
+.card{
+    background-color:white;
+    border-radius: 4px;
+    box-shadow: 1px 4px 4px rgba(0,0,0,0.06);
+}
+.login-sign-in{
+    width:50%;
+    margin:auto;
+    margin-top:100px;
+    padding: 1rem;
+}
+.login-sign-in h1{
+    text-align: center;
+    margin: 10px;
+}
+.input-container{
+    width:95%;
+    margin-bottom: 10px;
+}
+.input-container input{
+    width: 100%;
+    padding: 1rem;
+}
+.login-btn button{
+    padding:0.5rem 1rem;
+    /* float: right; */
+}
+.login-sign-in a{
+    color:#133F77;
+}
